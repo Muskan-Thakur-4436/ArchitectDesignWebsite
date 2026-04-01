@@ -39,8 +39,8 @@ jobs:
           # Upload entire repository
           path: 'dist'
       - name: Install and Build
-      run:|
-      npm install
-      npm run build
+        run:|
+        npm install
+        npm run build
         id: deployment
         uses: actions/deploy-pages@v5
