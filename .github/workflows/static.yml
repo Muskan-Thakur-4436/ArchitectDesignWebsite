@@ -37,7 +37,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
+          path: 'dist'
+      - name: Install and Build
+      run:|
+      npm install
+      npm run build
         id: deployment
         uses: actions/deploy-pages@v5
