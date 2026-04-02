@@ -1,5 +1,5 @@
 import { useState } from "react";
-import micasaLogo from "./Images/DkLogo.jpeg"; // Your transparent logo
+import micasaLogo from "./Images/whitelogo.svg"; // Your transparent logo
 
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
