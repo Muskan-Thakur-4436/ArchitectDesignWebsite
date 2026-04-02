@@ -42,7 +42,7 @@ const Hero = () => {
             top: "30%",
           }}
         >
-          <img src={micasaLogo} alt="MiCasa Logo" style={{ height: "100px" }} />
+          <img src={micasaLogo} alt="MiCasa Logo" style={{ height: "312px" }} />
         </div>
       </section>
 
